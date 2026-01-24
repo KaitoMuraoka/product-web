@@ -1,0 +1,109 @@
+.meetcuckoo-page .app-hero {
+    background: linear-gradient(180deg, rgba(56, 189, 248, 0.1) 0%, transparent 100%);
+}
+
+.meetcuckoo-page .detail-app-title {
+    color: #38bdf8;
+    /* Sky-400 */
+}
+
+.meetcuckoo-page .feature-card h3 {
+    color: #38bdf8;
+}
+
+/* Inherits other styles from HashdPotatoPage via classes or global if shared, but here we scope or copy for simplicity since they are separate pages */
+/* Ideally we refactor shared CSS, but for now copying the base structure styles to ensure isolation */
+
+.detail-app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: var(--spacing-md);
+}
+
+.detail-app-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: var(--spacing-sm);
+}
+
+.detail-app-subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.app-badges {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-size: 0.875rem;
+    color: var(--color-text-primary);
+}
+
+.app-content {
+    margin-top: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+.feature-section h2,
+.setup-guide h2 {
+    font-size: 1.75rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-primary);
+}
+
+.feature-section p {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    max-width: 700px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.feature-card {
+    background: var(--color-bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid var(--color-border);
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.privacy-link-container {
+    text-align: center;
+    margin-top: var(--spacing-md);
+}
+
+.privacy-link {
+    color: var(--color-text-secondary);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.privacy-link:hover {
+    color: var(--color-accent-primary);
+}
