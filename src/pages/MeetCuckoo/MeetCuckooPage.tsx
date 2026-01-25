@@ -58,11 +58,11 @@ export const MeetCuckooPage: React.FC = () => {
                     </p>
                 </section>
 
-                {/* <section className="download-section">
+                <section className="download-section">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img className='download-section' src={appStoreBadege} alt="App Store Download Badge" />
                     </a>
-                </section> */}
+                </section>
 
                 <div className="privacy-link-container">
                     <Link to="/meetcuckoo/privacy" className="privacy-link">プライバシーポリシーを読む</Link>
