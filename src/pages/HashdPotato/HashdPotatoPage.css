@@ -102,6 +102,14 @@
     color: var(--color-text-primary);
 }
 
+.download-section {
+    text-align: center;
+}
+
+.download-section img {
+    height: 60px;
+}
+
 .privacy-link-container {
     text-align: center;
     margin-top: var(--spacing-md);

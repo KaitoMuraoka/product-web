@@ -9,12 +9,12 @@ export const HomePage: React.FC = () => {
         <div className="home-page">
             <section className="hero-section">
                 <h1 className="hero-title">
-                    毎日のワークフローを、<br />
-                    <span className="text-gradient">もっとスマートに。</span>
+                    アイデアを形にする、<br />
+                    <span className="text-gradient">プロダクト集</span>
                 </h1>
                 <p className="hero-subtitle">
-                    シンプルで効率的なツールが、<br />
-                    あなたの生産性を向上させます。
+                    個人で企画・開発した<br />
+                    プロダクトを公開しています。
                 </p>
             </section>
 

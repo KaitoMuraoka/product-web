@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import hashdPotatoIcon from '../../assets/hashdpotato-icon.png';
+import appStoreBadege from '../../assets/Download_on_the_App_Store_Badge.svg';
 import './HashdPotatoPage.css';
 
 export const HashdPotatoPage: React.FC = () => {
@@ -12,7 +13,7 @@ export const HashdPotatoPage: React.FC = () => {
                     <h1 className="detail-app-title">HashdPotato</h1>
                     <p className="detail-app-subtitle">iOSのためのスマートなハッシュタグキーボード</p>
                     <div className="app-badges">
-                        <span className="badge">iOS 15+</span>
+                        <span className="badge">iOS 26+</span>
                         <span className="badge">キーボード拡張</span>
                         <span className="badge">プライバシー重視</span>
                     </div>
@@ -24,8 +25,8 @@ export const HashdPotatoPage: React.FC = () => {
                     <h2>SNS運用を、もっと効率的に。</h2>
                     <p>
                         HashdPotatoは、ハッシュタグ管理を快適にするカスタムキーボードアプリです。
-                        よく使うタグのグループを保存して、ワンタップで入力。
-                        ハッシュタグ入力の手間を省き、コンテンツ作成に集中しましょう。
+                        いつも使うハッシュタグを、もっと素早く・スマートに。
+                        キーボード拡張からワンタップで呼び出して入力できます。
                     </p>
                 </section>
 
@@ -52,6 +53,12 @@ export const HashdPotatoPage: React.FC = () => {
                         <li><strong>キーボード</strong> &gt; <strong>新しいキーボードを追加...</strong>をタップします。</li>
                         <li>「他社製キーボード」欄から<strong>HashdPotato</strong>を選択してください。</li>
                     </ol>
+                </section>
+
+                <section className="download-section">
+                    <a href="https://apps.apple.com/us/app/hashdpotato/id6752958728" target="_blank" rel="noopener noreferrer">
+                        <img className='download-section' src={appStoreBadege} alt="App Store Download Badge" />
+                    </a>
                 </section>
 
                 <div className="privacy-link-container">
