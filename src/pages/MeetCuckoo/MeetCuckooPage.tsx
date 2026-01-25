@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import meetCuckooIcon from '../../assets/meetcuckoo-icon.png';
 import appStoreBadege from '../../assets/Download_on_the_App_Store_Badge.svg';
+import menubarScreenshot from '../../assets/screenshot/menubar.png';
+import popupScreenshot from '../../assets/screenshot/popup.png';
+import popupScreenshotOnline from '../../assets/screenshot/popup-online.png';
 import './MeetCuckooPage.css';
 
 export const MeetCuckooPage: React.FC = () => {
@@ -26,21 +29,25 @@ export const MeetCuckooPage: React.FC = () => {
                     <p>
                         MeetCuckooはメニューバーに常駐し、次の会議までの残り時間を表示します。
                         ひと目で予定を把握し、ワンクリックで会議に参加できます。
+                        鳩時計のように、会議の時間をお伝えします。
                     </p>
                 </section>
 
                 <section className="feature-grid">
                     <div className="feature-card">
+                        <img src={menubarScreenshot} alt="メニューバーのカウントダウンタイマー" className="feature-screenshot" />
                         <h3>カウントダウンタイマー</h3>
                         <p>メニューバーに残り時間を表示。作業を邪魔することなく、会議の時間をお知らせします。</p>
                     </div>
                     <div className="feature-card">
-                        <h3>ワンクリック参加</h3>
-                        <p>Zoom, Google Meet, Teamsなどの会議リンクを自動検出し、すぐに参加できます。</p>
-                    </div>
-                    <div className="feature-card">
+                        <img src={popupScreenshot} alt="スマート通知" className="feature-screenshot" />
                         <h3>スマート通知</h3>
                         <p>会議開始前に大きく通知。うっかり遅れることを防ぎます。</p>
+                    </div>
+                    <div className="feature-card">
+                        <img src={popupScreenshotOnline} alt="ワンクリック参加のポップアップ" className="feature-screenshot" />
+                        <h3>ワンクリック参加</h3>
+                        <p>Zoom, Google Meet, Teamsなどの会議リンクを自動検出し、すぐに参加できます。</p>
                     </div>
                 </section>
 
