@@ -12,7 +12,7 @@ export const HashdPotatoPage: React.FC = () => {
                     <h1 className="detail-app-title">HashdPotato</h1>
                     <p className="detail-app-subtitle">iOSのためのスマートなハッシュタグキーボード</p>
                     <div className="app-badges">
-                        <span className="badge">iOS 15+</span>
+                        <span className="badge">iOS 26+</span>
                         <span className="badge">キーボード拡張</span>
                         <span className="badge">プライバシー重視</span>
                     </div>
@@ -24,8 +24,8 @@ export const HashdPotatoPage: React.FC = () => {
                     <h2>SNS運用を、もっと効率的に。</h2>
                     <p>
                         HashdPotatoは、ハッシュタグ管理を快適にするカスタムキーボードアプリです。
-                        よく使うタグのグループを保存して、ワンタップで入力。
-                        ハッシュタグ入力の手間を省き、コンテンツ作成に集中しましょう。
+                        いつも使うハッシュタグを、もっと素早く・スマートに。
+                        キーボード拡張からワンタップで呼び出して入力できます。
                     </p>
                 </section>
 
