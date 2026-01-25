@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import hashdPotatoIcon from '../../assets/hashdpotato-icon.png';
+import appStoreBadege from '../../assets/Download_on_the_App_Store_Badge.svg';
 import './HashdPotatoPage.css';
 
 export const HashdPotatoPage: React.FC = () => {
@@ -52,6 +53,12 @@ export const HashdPotatoPage: React.FC = () => {
                         <li><strong>キーボード</strong> &gt; <strong>新しいキーボードを追加...</strong>をタップします。</li>
                         <li>「他社製キーボード」欄から<strong>HashdPotato</strong>を選択してください。</li>
                     </ol>
+                </section>
+
+                <section className="download-section">
+                    <a href="https://apps.apple.com/us/app/hashdpotato/id6752958728" target="_blank" rel="noopener noreferrer">
+                        <img className='download-section' src={appStoreBadege} alt="App Store Download Badge" />
+                    </a>
                 </section>
 
                 <div className="privacy-link-container">
