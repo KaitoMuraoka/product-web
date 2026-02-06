@@ -7,8 +7,8 @@ export const Footer: React.FC = () => {
         <footer className="site-footer">
             <div className="container footer-content">
                 <div className="footer-links">
-                    <Link to="/hashdpotato/privacy">Privacy Policy (HashdPotato)</Link>
-                    <Link to="/meetcuckoo/privacy">Privacy Policy (MeetCuckoo)</Link>
+                    <Link to="/hashdpotato/privacy">プライバシーポリシー (HashdPotato)</Link>
+                    <Link to="/meetcuckoo/privacy">プライバシーポリシー (MeetCuckoo)</Link>
                 </div>
                 <p className="copyright">&copy; {new Date().getFullYear()} ProductRepo. All rights reserved.</p>
             </div>

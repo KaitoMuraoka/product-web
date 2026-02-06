@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
                     とんとんぼ's <span className="logo-accent">ProductRepo</span>
                 </Link>
                 <nav className="main-nav">
-                    <Link to="/">Home</Link>
+                    <Link to="/">ホーム</Link>
                     <Link to="/hashdpotato">HashdPotato</Link>
                     <Link to="/meetcuckoo">MeetCuckoo</Link>
                 </nav>
