@@ -59,7 +59,7 @@ export const MeetCuckooPage: React.FC = () => {
                 </section>
 
                 <section className="download-section">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://apps.apple.com/jp/app/meetcuckoo/id6757332037?mt=12 " target="_blank" rel="noopener noreferrer">
                         <img className='download-section' src={appStoreBadege} alt="App Store Download Badge" />
                     </a>
                 </section>
